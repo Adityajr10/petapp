@@ -18,8 +18,8 @@
     - name: Log in to Docker Hub
       community.docker.docker_login:
         registry_url: https://index.docker.io/v1/
-        username: dockerhub adityarai10
-        password: dockerhub dckr_pat_bZuXjDL1sQCISJgCTQYFz_4_okY
+        username: adityarai10
+        password: dckr_pat_bZuXjDL1sQCISJgCTQYFz_4_okY
 
 
     - name: Push image
