@@ -13,7 +13,7 @@
         chdir: /var/lib/jenkins/workspace/petapp
 
     - name: tag image
-      command: docker tag petstore:latest adityarai10/petapp:latest 
+      command: docker tag petapp:latest adityarai10/petapp:latest 
 
     - name: Log in to Docker Hub
       community.docker.docker_login:
